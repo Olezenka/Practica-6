@@ -10,6 +10,9 @@ namespace ConsoleApp5
     {
         static void Main(string[] args)
         {
+            Console.Write("Введите значения параметра x = ");
+            string S = Console.ReadLine();
+            double x = Convert.ToDouble(s);
         }
     }
 }
