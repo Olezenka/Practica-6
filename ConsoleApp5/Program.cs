@@ -14,6 +14,7 @@ namespace ConsoleApp5
             string S = Console.ReadLine();
             double x = Convert.ToDouble(S);
             double F = (Math.Sin(x) + Math.Cos(x))/2;
+            Console.WriteLine($"Для значения x = {x}, F = {F}.");
         }
     }
 }
